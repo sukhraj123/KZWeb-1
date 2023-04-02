@@ -44,21 +44,56 @@ export default function Examples() {
               View Landing Page
             </Button>
           </Col>
+          
           <Col sm="6">
-            <Link to="profile-page">
+            <Link to="landing-page">
               <img
                 alt="..."
                 className="img-raised"
-                src={require("assets/img/profile-page.png")}
+                src={require("assets/img/landing-page.png")}
               />
             </Link>
             <Button
               className="btn-simple btn-round"
               color="primary"
-              to="profile-page"
+              to="landing-page"
               tag={Link}
             >
-              View Profile Page
+              View Landing Page
+            </Button>
+          </Col>
+          <Col sm="6">
+            <Link to="landing-page">
+              <img
+                alt="..."
+                className="img-raised"
+                src={require("assets/img/landing-page.png")}
+              />
+            </Link>
+            <Button
+              className="btn-simple btn-round"
+              color="primary"
+              to="landing-page"
+              tag={Link}
+            >
+              View Landing Page
+            </Button>
+          </Col>
+          <Col sm="6">
+            <Link to="landing-page">
+              <img
+                alt="..."
+                className="img-raised"
+                src={require("assets/img/landing-page.png")}
+              />
+            </Link>
+            <Button
+              className="btn-simple btn-round"
+              color="primary"
+              to="landing-page"
+              tag={Link}
+            >
+              View Landing Page
             </Button>
           </Col>
         </Row>
