@@ -1,20 +1,4 @@
-/*!
 
-=========================================================
-* BLK Design System React - v1.2.1
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/blk-design-system-react
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/blk-design-system-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 import { Link } from "react-router-dom";
 // reactstrap components
@@ -79,11 +63,11 @@ export default function IndexNavbar() {
       <Container>
         <div className="navbar-translate">
           <NavbarBrand to="/" tag={Link} id="navbar-brand">
-            <span>BLK• </span>
-            Design System React
+            <span>KZ• </span>
+            Web Solutions
           </NavbarBrand>
           <UncontrolledTooltip placement="bottom" target="navbar-brand">
-            Designed and Coded by Creative Tim
+            Designed and Coded by Keez
           </UncontrolledTooltip>
           <button
             aria-expanded={collapseOpen}
@@ -106,7 +90,7 @@ export default function IndexNavbar() {
             <Row>
               <Col className="collapse-brand" xs="6">
                 <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                  BLK•React
+                  KZ•Web
                 </a>
               </Col>
               <Col className="collapse-close text-right" xs="6">
@@ -121,18 +105,7 @@ export default function IndexNavbar() {
             </Row>
           </div>
           <Nav navbar>
-            <NavItem className="p-0">
-              <NavLink
-                data-placement="bottom"
-                href="https://twitter.com/CreativeTim"
-                rel="noopener noreferrer"
-                target="_blank"
-                title="Follow us on Twitter"
-              >
-                <i className="fab fa-twitter" />
-                <p className="d-lg-none d-xl-none">Twitter</p>
-              </NavLink>
-            </NavItem>
+           
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
@@ -167,24 +140,28 @@ export default function IndexNavbar() {
                 onClick={(e) => e.preventDefault()}
               >
                 <i className="fa fa-cogs d-lg-none d-xl-none" />
-                Getting started
+                Menu
               </DropdownToggle>
               <DropdownMenu className="dropdown-with-icons">
+              <DropdownItem href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/overview">
+                  <i className="tim-icons icon-paper" />
+                  Home
+                </DropdownItem>
                 <DropdownItem href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/overview">
                   <i className="tim-icons icon-paper" />
-                  Documentation
+                  Clients
                 </DropdownItem>
                 <DropdownItem tag={Link} to="/register-page">
                   <i className="tim-icons icon-bullet-list-67" />
-                  Register Page
+                  Services
                 </DropdownItem>
                 <DropdownItem tag={Link} to="/landing-page">
                   <i className="tim-icons icon-image-02" />
-                  Landing Page
+                  About
                 </DropdownItem>
                 <DropdownItem tag={Link} to="/profile-page">
                   <i className="tim-icons icon-single-02" />
-                  Profile Page
+                  Contact
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>

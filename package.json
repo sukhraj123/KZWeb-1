@@ -1,18 +1,18 @@
 {
-  "name": "blk-design-system-react",
+  "name": "KZ Web Solutions",
   "version": "1.2.1",
-  "description": "React version of BLK Design System by Creative Tim",
+  "description": "designed by keez",
   "main": "index.js",
-  "author": "Creative Tim",
+  "author": "Keez",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/blk-design-system-react.git"
+    "url": "git+https://github.com/sukhraj123/KZWeb-1.git"
   },
   "bugs": {
     "url": "https://github.com/creativetimofficial/blk-design-system-react/issues"
   },
-  "homepage": "https://demos.creative-tim.com/blk-design-system-react/#/",
+  "homepage": "https://sukhraj123.github.io/KZWeb-1/",
   "keywords": [
     "react",
     "reactjs",
