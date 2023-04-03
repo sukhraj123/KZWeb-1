@@ -32,7 +32,7 @@ export default function Examples() {
             
           </Col>
           <Col sm="6">
-            <a href="https://kzwebsolutions.github.io/joeindica/">
+            <a href="https://sukhraj123.github.io/MrMustacheinc/">
               <img
                 alt="..."
                 className="img-raised"
@@ -42,7 +42,7 @@ export default function Examples() {
             
           </Col>
           <Col sm="6">
-            <a href="https://kzwebsolutions.github.io/PP/">
+            <a href="https://sukhraj123.github.io/Supremepizza/">
               <img
                 alt="..."
                 className="img-raised"
@@ -52,7 +52,7 @@ export default function Examples() {
             
           </Col>
           <Col sm="6">
-            <a href="https://kzwebsolutions.github.io/joeindica/">
+            <a href="https://sukhraj123.github.io/ilovecelsius/">
               <img
                 alt="..."
                 className="img-raised"
@@ -62,7 +62,7 @@ export default function Examples() {
             
           </Col>
           <Col sm="6">
-            <a href="https://kzwebsolutions.github.io/PP/">
+            <a href="https://tsgmobiledetailing.ca">
               <img
                 alt="..."
                 className="img-raised"
@@ -72,7 +72,7 @@ export default function Examples() {
             
           </Col>
           <Col sm="6">
-            <a href="https://kzwebsolutions.github.io/joeindica/">
+            <a href="https://sukhraj123.github.io/projectkeez/">
               <img
                 alt="..."
                 className="img-raised"
@@ -82,7 +82,7 @@ export default function Examples() {
             
           </Col>
           <Col sm="6">
-            <a href="https://kzwebsolutions.github.io/PP/">
+            <a href="https://wakingworks.com">
               <img
                 alt="..."
                 className="img-raised"
@@ -92,7 +92,7 @@ export default function Examples() {
             
           </Col>
           <Col sm="6">
-            <a href="https://kzwebsolutions.github.io/joeindica/">
+            <a href="https://pollardprepaired.ca">
               <img
                 alt="..."
                 className="img-raised"
@@ -102,7 +102,7 @@ export default function Examples() {
             
           </Col>
           <Col sm="6">
-            <a href="https://kzwebsolutions.github.io/PP/">
+            <a href="https://kzwebsolutions.github.io/mbh/">
               <img
                 alt="..."
                 className="img-raised"
@@ -112,7 +112,7 @@ export default function Examples() {
             
           </Col>
           <Col sm="6">
-            <a href="https://kzwebsolutions.github.io/joeindica/">
+            <a href="https://gillnoorelectricalandreno.ca">
               <img
                 alt="..."
                 className="img-raised"
@@ -122,7 +122,7 @@ export default function Examples() {
             
           </Col>
           <Col sm="6">
-            <a href="https://kzwebsolutions.github.io/PP/">
+            <a href="https://jpbuilders.ca">
               <img
                 alt="..."
                 className="img-raised"

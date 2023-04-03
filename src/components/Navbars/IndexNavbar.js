@@ -53,11 +53,7 @@ export default function IndexNavbar() {
   const onCollapseExited = () => {
     setCollapseOut("");
   };
-  const scrollToDownload = () => {
-    document
-      .getElementById("download-section")
-      .scrollIntoView({ behavior: "smooth" });
-  };
+  
   return (
     <Navbar className={"fixed-top " + color} color-on-scroll="100" expand="lg">
       <Container>
@@ -143,23 +139,23 @@ export default function IndexNavbar() {
                 Menu
               </DropdownToggle>
               <DropdownMenu className="dropdown-with-icons">
-              <DropdownItem href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/overview">
+              <DropdownItem tag={Link} to="/">
                   <i className="tim-icons icon-molecule-40" />
                   Home
                 </DropdownItem>
-                <DropdownItem href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/overview">
+                <DropdownItem tag={Link} to="/work-page">
                   <i className="tim-icons icon-single-02" />
                   Clients
                 </DropdownItem>
-                <DropdownItem tag={Link} to="/register-page">
+                <DropdownItem tag={Link} to="/service-page">
                   <i className="tim-icons icon-bullet-list-67" />
                   Services
                 </DropdownItem>
-                <DropdownItem tag={Link} to="/landing-page">
+                <DropdownItem tag={Link} to="/about-page">
                   <i className="tim-icons icon-paper" />
                   About
                 </DropdownItem>
-                <DropdownItem tag={Link} to="/profile-page">
+                <DropdownItem tag={Link} to="/contact-page">
                   <i className="tim-icons icon-email-85" />
                   Contact
                 </DropdownItem>
