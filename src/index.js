@@ -8,7 +8,7 @@ import "assets/scss/blk-design-system-react.scss";
 import "assets/demo/demo.css";
 
 import Index from "views/Index.js";
-import LandingPage from "views/examples/LandingPage.js";
+import WorkPage from "views/examples/WorkPage.js";
 import RegisterPage from "views/examples/RegisterPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 
@@ -19,8 +19,8 @@ root.render(
     <Switch>
       <Route path="/components" render={(props) => <Index {...props} />} />
       <Route
-        path="/landing-page"
-        render={(props) => <LandingPage {...props} />}
+        path="/work-page"
+        render={(props) => <WorkPage {...props} />}
       />
       <Route
         path="/register-page"

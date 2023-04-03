@@ -139,16 +139,16 @@ export default function IndexNavbar() {
                 nav
                 onClick={(e) => e.preventDefault()}
               >
-                <i className="fa fa-cogs d-lg-none d-xl-none" />
+                <i className="fa fa-bars d-lg-none d-xl-none" />
                 Menu
               </DropdownToggle>
               <DropdownMenu className="dropdown-with-icons">
               <DropdownItem href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/overview">
-                  <i className="tim-icons icon-paper" />
+                  <i className="tim-icons icon-molecule-40" />
                   Home
                 </DropdownItem>
                 <DropdownItem href="https://demos.creative-tim.com/blk-design-system-react/#/documentation/overview">
-                  <i className="tim-icons icon-paper" />
+                  <i className="tim-icons icon-single-02" />
                   Clients
                 </DropdownItem>
                 <DropdownItem tag={Link} to="/register-page">
@@ -156,11 +156,11 @@ export default function IndexNavbar() {
                   Services
                 </DropdownItem>
                 <DropdownItem tag={Link} to="/landing-page">
-                  <i className="tim-icons icon-image-02" />
+                  <i className="tim-icons icon-paper" />
                   About
                 </DropdownItem>
                 <DropdownItem tag={Link} to="/profile-page">
-                  <i className="tim-icons icon-single-02" />
+                  <i className="tim-icons icon-email-85" />
                   Contact
                 </DropdownItem>
               </DropdownMenu>
@@ -170,20 +170,12 @@ export default function IndexNavbar() {
                 className="nav-link d-none d-lg-block"
                 color="primary"
                 target="_blank"
-                href="https://www.creative-tim.com/product/blk-design-system-pro-react?ref=bdsr-user-archive-index-navbar-upgrade-pro"
+                href="tel:6044454042"
               >
-                <i className="tim-icons icon-spaceship" /> Upgrade to PRO
+                <i className="tim-icons icon-mobile" /> Call Now
               </Button>
             </NavItem>
-            <NavItem>
-              <Button
-                className="nav-link d-none d-lg-block"
-                color="default"
-                onClick={scrollToDownload}
-              >
-                <i className="tim-icons icon-cloud-download-93" /> Download
-              </Button>
-            </NavItem>
+            
           </Nav>
         </Collapse>
       </Container>
