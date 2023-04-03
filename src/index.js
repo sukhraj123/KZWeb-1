@@ -11,6 +11,7 @@ import Index from "views/Index.js";
 import WorkPage from "views/examples/WorkPage.js";
 import RegisterPage from "views/examples/RegisterPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
+import AboutPage from "views/examples/AboutPage.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -29,6 +30,10 @@ root.render(
       <Route
         path="/profile-page"
         render={(props) => <ProfilePage {...props} />}
+      />
+      <Route
+        path="/about-page"
+        render={(props) => <AboutPage {...props} />}
       />
       <Redirect from="/" to="/components" />
     </Switch>
