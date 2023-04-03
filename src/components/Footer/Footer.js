@@ -34,15 +34,21 @@ export default function Footer() {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/register-page" tag={Link}>
+                <NavLink to="/service-page" tag={Link}>
                   Services
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink to="/profile-page" tag={Link}>
+                <NavLink to="/about-page" tag={Link}>
                   About
                 </NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink to="/contact-page" tag={Link}>
+                  Contact
+                </NavLink>
+              </NavItem>
+              
             </Nav>
           </Col>
          
