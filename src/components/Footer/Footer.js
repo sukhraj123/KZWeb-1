@@ -53,7 +53,7 @@ export default function Footer() {
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
                 color="default"
-                href="https://www.facebook.com/creativetim"
+                href="https://m.facebook.com/p/Sukh-Grewal-100077630387673/?_rdr"
                 id="tooltip230450801"
                 target="_blank"
               >
@@ -65,7 +65,7 @@ export default function Footer() {
               <Button
                 className="btn-icon btn-neutral btn-round btn-simple"
                 color="default"
-                href="https://dribbble.com/creativetim"
+                href="https://instagram.com/keezwebdev"
                 id="tooltip318450378"
                 target="_blank"
               >

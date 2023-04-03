@@ -105,7 +105,7 @@ export default function IndexNavbar() {
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
-                href="https://www.facebook.com/CreativeTim"
+                href="https://m.facebook.com/p/Sukh-Grewal-100077630387673/?_rdr"
                 rel="noopener noreferrer"
                 target="_blank"
                 title="Like us on Facebook"
@@ -117,7 +117,7 @@ export default function IndexNavbar() {
             <NavItem className="p-0">
               <NavLink
                 data-placement="bottom"
-                href="https://www.instagram.com/CreativeTimOfficial"
+                href="https://www.instagram.com/keezwebdev"
                 rel="noopener noreferrer"
                 target="_blank"
                 title="Follow us on Instagram"

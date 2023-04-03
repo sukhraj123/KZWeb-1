@@ -35,7 +35,7 @@ export default function AboutPage() {
                 <img
                       alt="..."
                       className="img-center img-fluid rounded-circle"
-                      src={require("assets/img/mike.jpg")}
+                      src={require("assets/img/sukh.jpg")}
                     />
                 <h5 className="text-on-back">KZ</h5>
                 <p className="profile-description">
@@ -50,7 +50,7 @@ THINGS WE LOVE TO DO. Our services are tailored to your business needs and we ca
                   <Button
                     className="btn-icon btn-round"
                     color="facebook"
-                    href="https://www.facebook.com/creativetim"
+                    href="https://m.facebook.com/p/Sukh-Grewal-100077630387673/?_rdr"
                     id="tooltip982846143"
                     target="_blank"
                   >
