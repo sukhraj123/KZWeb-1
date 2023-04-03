@@ -92,7 +92,7 @@ export default function Examples() {
             
           </Col>
           <Col sm="6">
-            <a href="https://pollardprepaired.ca">
+            <a href="https://pollardprepaired.com">
               <img
                 alt="..."
                 className="img-raised"

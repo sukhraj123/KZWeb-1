@@ -125,7 +125,9 @@ export default function IndexNavbar() {
                 <i className="fab fa-instagram" />
                 <p className="d-lg-none d-xl-none">Instagram</p>
               </NavLink>
+              
             </NavItem>
+            
             <UncontrolledDropdown nav>
               <DropdownToggle
                 caret
@@ -159,6 +161,10 @@ export default function IndexNavbar() {
                   <i className="tim-icons icon-email-85" />
                   Contact
                 </DropdownItem>
+                <DropdownItem tag={Link} to="tel:604445402">
+                  <i className="tim-icons icon-mobile" />
+                  Call Now
+                </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown>
             <NavItem>
@@ -166,9 +172,9 @@ export default function IndexNavbar() {
                 className="nav-link d-none d-lg-block"
                 color="primary"
                 target="_blank"
-                href="tel:6044454042"
+                href="mailto:nolimit.grewal@gmail.com"
               >
-                <i className="tim-icons icon-mobile" /> Call Now
+                <i className="tim-icons icon-email-85" /> Email Me
               </Button>
             </NavItem>
             
