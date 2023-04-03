@@ -2,19 +2,17 @@
 import Footer from "components/Footer/Footer";
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import {
-  Button,
+  
   Card,
   CardHeader,
   CardBody,
   
-  FormGroup,
-  Form,
-  Input,
+
 
   Container,
   Row,
   Col,
-  UncontrolledTooltip,
+  
   
 } from "reactstrap";
 import React from "react";
