@@ -9,6 +9,7 @@ export default function Examples() {
       <img alt="..." className="path" src={require("assets/img/path1.png")} />
       <div className="space-50" />
       <Container className="text-center">
+        <h1>My Work</h1>
         <Row>
           <Col sm="6">
             <a href="https://kzwebsolutions.github.io/joeindica/">
