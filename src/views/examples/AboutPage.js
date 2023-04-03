@@ -32,6 +32,11 @@ export default function AboutPage() {
             <Row>
               <Col lg="6" md="6">
                 <h1 className="profile-title text-left">Sukh (Keez) Grewal</h1>
+                <img
+                      alt="..."
+                      className="img-center img-fluid rounded-circle"
+                      src={require("assets/img/mike.jpg")}
+                    />
                 <h5 className="text-on-back">KZ</h5>
                 <p className="profile-description">
                 KZ a full-service website solutions company, located in Vancouver prefected with a professional grade of workmanship. Providing the experiences of tomorrow through innovative web design and development, brand strategy, & human-centered user experience.

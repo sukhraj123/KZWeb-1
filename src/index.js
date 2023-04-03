@@ -12,6 +12,8 @@ import WorkPage from "views/examples/WorkPage.js";
 import RegisterPage from "views/examples/RegisterPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 import AboutPage from "views/examples/AboutPage.js";
+import ContactPage from "views/examples/ContactPage";
+import ServicePage from "views/examples/ServicePage";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -34,6 +36,14 @@ root.render(
       <Route
         path="/about-page"
         render={(props) => <AboutPage {...props} />}
+      />
+      <Route
+        path="/service-page"
+        render={(props) => <ServicePage {...props} />}
+      />
+      <Route
+        path="/contact-page"
+        render={(props) => <ContactPage {...props} />}
       />
       <Redirect from="/" to="/components" />
     </Switch>
