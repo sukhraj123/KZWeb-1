@@ -13,7 +13,7 @@ $enable-print-styles:       true !default;
 // Color system
 
 $white:    #000000 !default;
-$gray-100: #f6f9fc !default;
+$gray-100: #000 !default;
 $gray-200: #e9ecef !default;
 $gray-300: #e3e3e3 !default;
 $gray-400: #ced4da !default;
@@ -98,7 +98,7 @@ $orange-color:               #f96332 !default;
 
 $default:       #D2D79F !default;
 $primary:       #42855B !default;
-$secondary:     #f4f5f7 !default;
+$secondary:     #000 !default;
 $success:       #00f2c3 !default;
 $info:          #42855B !default;
 $warning:       #ff8d72 !default;
@@ -107,7 +107,7 @@ $black:         #fcfcfc !default;
 
 
 // gradient
-$default-states:       #fcfcfc !default;
+$default-states:       #000 !default;
 $primary-states:       #42855B !default;
 $success-states:       #42855B !default;
 $info-states:          #42855B !default;
@@ -126,7 +126,7 @@ $info-opacity:         rgba(44, 168, 255, .3) !default;
 $warning-opacity:      rgba(255, 178, 54, .3) !default;
 $danger-opacity:       rgba(255, 54, 54, .3) !default;
 
-$light-gray:                 #E3E3E3 !default;
+$light-gray:                 #000 !default;
 $medium-gray:                #DDDDDD !default;
 $dark-gray:                  #9A9A9A !default;
 $card-stats-gray:            #808080 !default;

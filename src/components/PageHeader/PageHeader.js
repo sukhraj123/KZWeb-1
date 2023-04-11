@@ -20,7 +20,7 @@ export default function PageHeader() {
           <h3 className="d-none d-sm-block">
           TRANSFORM BRANDS THROUGH INSPIRATION
           </h3>
-          <p className="category">Whether you're a business owner looking to get started on a app or web development project with a freelance web developer, a developer looking to collaborate on something cool, or just wanting to say hi, shoot me a message and let's work together.</p>
+          <p>Whether you're a business owner looking to get started on a app or web development project with a freelance web developer, a developer looking to collaborate on something cool, or just wanting to say hi, shoot me a message and let's work together.</p>
         </div>
       </Container>
     </div>

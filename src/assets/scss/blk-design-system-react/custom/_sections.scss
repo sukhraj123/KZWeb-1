@@ -171,7 +171,7 @@
     .info-title,
     .info.info-horizontal .icon i,
     .card-pricing.card-plain ul li{
-        color: $white;
+        color: #000;
     }
     .description,
     .info .icon:not(.icon-circle){
@@ -179,7 +179,7 @@
     }
     .card:not(.card-plain){
         .info-title{
-            color: $black;
+            color: #000;
         }
         .info p,
         .info .icon,

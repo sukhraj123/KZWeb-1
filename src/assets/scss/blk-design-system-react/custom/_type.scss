@@ -26,7 +26,7 @@ textarea{
 }
 h1,h2,h3,h4,h5,h6{
     font-weight: $font-weight-normal;
-    color: $opacity-8;
+    color: #000;
 }
 
 a{
@@ -75,7 +75,7 @@ h6, .h6{
     font-weight: $font-weight-bold;
 }
 p{
-    color: $opacity-8;
+    color: #000;
     margin-bottom: 5px;
 
     &.description{
@@ -88,7 +88,7 @@ p{
   margin-top: 30px;
   margin-bottom: 25px;
   font-weight: $font-weight-bold;
-  color: $opacity-8;
+  color: #000;
 
 
     &.title-up{
