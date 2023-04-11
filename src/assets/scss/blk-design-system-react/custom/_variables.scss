@@ -12,7 +12,7 @@ $enable-print-styles:       true !default;
 
 // Color system
 
-$white:    #ffffff !default;
+$white:    #000000 !default;
 $gray-100: #f6f9fc !default;
 $gray-200: #e9ecef !default;
 $gray-300: #e3e3e3 !default;
@@ -103,11 +103,11 @@ $success:       #00f2c3 !default;
 $info:          #42855B !default;
 $warning:       #ff8d72 !default;
 $danger:        #42855B !default;
-$black:         #483838 !default;
+$black:         #fcfcfc !default;
 
 
 // gradient
-$default-states:       #483838 !default;
+$default-states:       #fcfcfc !default;
 $primary-states:       #42855B !default;
 $success-states:       #42855B !default;
 $info-states:          #42855B !default;
@@ -115,7 +115,7 @@ $warning-states:       #42855B !default;
 $danger-states:        #ec250d !default;
 $black-states:         #1d253b !default;
 
-$background-black:           #483838 !default;
+$background-black:           #fcfcfc !default;
 $background-states-black:    #1e1e24 !default;
 
 // opacity

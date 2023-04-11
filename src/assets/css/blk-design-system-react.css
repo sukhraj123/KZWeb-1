@@ -22,11 +22,11 @@
   --green: #2dce89;
   --teal: #11cdef;
   --cyan: #2bffc6;
-  --white: #ffffff;
+  --white: #000000;
   --gray: #6c757d;
   --gray-dark: #D2D79F;
   --light: #ced4da;
-  --lighter: #e9ecef;
+  --lighter: #000000;
   --primary: #42855B;
   --secondary: #f4f5f7;
   --success: #00f2c3;
@@ -36,8 +36,8 @@
   --light: #adb5bd;
   --dark: #D2D79F;
   --default: #D2D79F;
-  --white: #ffffff;
-  --neutral: #ffffff;
+  --white: #000000;
+  --neutral: #000000;
   --darker: black;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
@@ -111,6 +111,7 @@ h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color: #000;
 }
 
 abbr[title],
@@ -6808,7 +6809,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #e14eca !important;
+  background-color: #fcfcfc !important;
 }
 
 a.bg-primary:hover,
@@ -16468,7 +16469,7 @@ p.description {
 .card-category {
   text-transform: capitalize;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.6);
+  color: #000000;
   font-size: 0.75rem;
 }
 
@@ -18541,7 +18542,7 @@ textarea.form-control:active {
   margin-top: -60px;
   padding: 0 15px;
   width: 100%;
-  color: rgba(255, 255, 255, 0.5);
+  color: #000000;
 }
 
 .index-page .squares {
@@ -19784,7 +19785,7 @@ hr.line-deafult {
   color: #ffffff;
 }
 .section-image .card-plain .category {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255);
 }
 .section-image:after {
   position: absolute;
@@ -19854,7 +19855,7 @@ hr.line-deafult {
 }
 .page-header .category,
 .page-header .description {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255);
 }
 .page-header.page-header-small {
   min-height: 60vh;
@@ -20155,7 +20156,7 @@ hr.line-deafult {
 [data-background-color]:not([data-background-color="gray"])
   .card:not(.card-plain)
   .category {
-  color: #9a9a9a;
+  color: #000;
 }
 [data-background-color]:not([data-background-color="gray"])
   .card:not(.card-plain)
@@ -20224,7 +20225,7 @@ hr.line-deafult {
   .card-plain
   .category,
 [data-background-color]:not([data-background-color="gray"]) .card-header:after {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255);
 }
 [data-background-color]:not([data-background-color="gray"]).card-pricing
   ul
