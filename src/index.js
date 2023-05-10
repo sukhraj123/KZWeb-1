@@ -9,6 +9,7 @@ import "assets/demo/demo.css";
 
 import Index from "views/Index.js";
 import WorkPage from "views/examples/WorkPage.js";
+import PortPage from "views/examples/PortPage.js";
 import RegisterPage from "views/examples/RegisterPage.js";
 import ProfilePage from "views/examples/ProfilePage.js";
 import AboutPage from "views/examples/AboutPage.js";
@@ -24,6 +25,10 @@ root.render(
       <Route
         path="/work-page"
         render={(props) => <WorkPage {...props} />}
+      />
+      <Route
+        path="/port-page"
+        render={(props) => <PortPage {...props} />}
       />
       <Route
         path="/register-page"

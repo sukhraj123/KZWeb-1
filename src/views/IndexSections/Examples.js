@@ -37,6 +37,37 @@ export default function Examples() {
         <br/>
         <Button color="primary"> <Link to="work-page">More Work</Link></Button>
       </Container>
+      <br></br>
+      <Container className="text-center">
+        <h1>My Work</h1>
+        <Row>
+          <Col sm="6">
+            <a href="https://kzwebsolutions.github.io/joeindica/">
+              <img
+                alt="..."
+                className="img-raised"
+                src={require("assets/img/work (1).png")}
+              />
+            </a>
+            
+          </Col>
+          <Col sm="6">
+            <a href="https://kzwebsolutions.github.io/PP/">
+              <img
+                alt="..."
+                className="img-raised"
+                src={require("assets/img/work (9).png")}
+              />
+            </a>
+            
+          </Col>
+         
+         
+        </Row>
+        <br/>
+        <Button color="primary"> <Link to="work-page">More Work</Link></Button>
+      </Container>
     </div>
+    
   );
 }

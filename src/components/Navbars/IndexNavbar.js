@@ -149,6 +149,10 @@ export default function IndexNavbar() {
                   <i className="tim-icons icon-single-02" />
                   Clients
                 </DropdownItem>
+                <DropdownItem tag={Link} to="/Port-page">
+                  <i className="tim-icons icon-single-02" />
+                  Portfolio
+                </DropdownItem>
                 <DropdownItem tag={Link} to="/service-page">
                   <i className="tim-icons icon-bullet-list-67" />
                   Services
