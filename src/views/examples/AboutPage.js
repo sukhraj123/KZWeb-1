@@ -1,5 +1,4 @@
 
-import Footer from "components/Footer/Footer";
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import {
   Button,
@@ -76,7 +75,7 @@ THINGS WE LOVE TO DO. Our services are tailored to your business needs and we ca
               </Row>
           </Container>
 
-      <Footer />
+      
     </>
   );
 }

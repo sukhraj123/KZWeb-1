@@ -1,5 +1,4 @@
 
-import Footer from "components/Footer/Footer";
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import Work from "views/IndexSections/Work.js";
 import React from "react";
@@ -18,7 +17,7 @@ export default function WorkPage() {
     <>
       <IndexNavbar />
       <Work />
-      <Footer />
+      
     </>
   );
 }

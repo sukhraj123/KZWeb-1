@@ -1,5 +1,4 @@
 
-import Footer from "components/Footer/Footer";
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import Port from "views/IndexSections/Port.js";
 import React from "react";
@@ -18,7 +17,7 @@ export default function WorkPage() {
     <>
       <IndexNavbar />
       <Port />
-      <Footer />
+      
     </>
   );
 }

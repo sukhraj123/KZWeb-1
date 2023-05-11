@@ -1,5 +1,4 @@
-
-import Footer from "components/Footer/Footer";
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import IndexNavbar from "components/Navbars/IndexNavbar";
 import {
   
@@ -67,10 +66,12 @@ export default function ContactPage() {
                     <h4 className="info-title">Give us a ring</h4>
                     <p>
                       Sukh (Keez) Grewal <br />
-                      +1 604 445 4042 
+                      <a href="tel:6044454042">+1 604 445 4042 </a>
+                      
 
                       <br />
-                      nolimit.grewal@gmail.com
+                      <a href="mailto:nolimit.grewal@gmail.com">nolimit.grewal@gmail.com</a>
+                      
                     </p>
                   </div>
                 </div>
@@ -79,7 +80,7 @@ export default function ContactPage() {
           </Container>
         </section>
 
-      <Footer />
+      
     </>
   );
 }
