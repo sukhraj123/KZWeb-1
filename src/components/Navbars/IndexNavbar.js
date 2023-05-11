@@ -59,8 +59,8 @@ export default function IndexNavbar() {
       <Container>
         <div className="navbar-translate">
           <NavbarBrand to="/" tag={Link} id="navbar-brand">
-            <span>KZ• </span>
-            Web Solutions
+            <span>KEEZ• </span>
+            
           </NavbarBrand>
           <UncontrolledTooltip placement="bottom" target="navbar-brand">
             Designed and Coded by Keez
@@ -86,7 +86,7 @@ export default function IndexNavbar() {
             <Row>
               <Col className="collapse-brand" xs="6">
                 <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                  KZ•Web
+                KEEZ•
                 </a>
               </Col>
               <Col className="collapse-close text-right" xs="6">

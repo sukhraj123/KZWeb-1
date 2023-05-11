@@ -35,37 +35,37 @@ export default function Examples() {
          
         </Row>
         <br/>
-        <Button color="primary"> <Link to="work-page">More Work</Link></Button>
+        <Button color="primary"> <Link to="work-page">Portfolio</Link></Button>
       </Container>
       <br></br>
       <Container className="text-center">
-        <h1>My Work</h1>
+        <h1>My Portfolio</h1>
         <Row>
           <Col sm="6">
-            <a href="https://kzwebsolutions.github.io/joeindica/">
+            
               <img
                 alt="..."
                 className="img-raised"
-                src={require("assets/img/work (1).png")}
+                src={require("assets/img/d (1).jpg")}
               />
-            </a>
+          
             
           </Col>
           <Col sm="6">
-            <a href="https://kzwebsolutions.github.io/PP/">
+            
               <img
                 alt="..."
                 className="img-raised"
-                src={require("assets/img/work (9).png")}
+                src={require("assets/img/d (43).jpg")}
               />
-            </a>
+            
             
           </Col>
          
          
         </Row>
         <br/>
-        <Button color="primary"> <Link to="work-page">More Work</Link></Button>
+        <Button color="primary"> <Link to="port-page">View Portfolio</Link></Button>
       </Container>
     </div>
     

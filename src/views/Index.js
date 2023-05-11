@@ -4,7 +4,7 @@ import React from "react";
 // core components
 import IndexNavbar from "components/Navbars/IndexNavbar.js";
 import PageHeader from "components/PageHeader/PageHeader.js";
-import Footer from "components/Footer/Footer.js";
+
 
 import Examples from "views/IndexSections/Examples.js";
 
@@ -26,7 +26,7 @@ export default function Index() {
           <Examples />
           
         </div>
-        <Footer />
+        
       </div>
     </>
   );
