@@ -22,7 +22,7 @@ export default function Examples() {
           </Col>
           
           <Col sm="6">
-            <a href="https://kzwebsolutions.github.io/PP/">
+            <a href="https://picasshomepainting.com/">
               <img
                 alt="..."
                 className="img-raised"
