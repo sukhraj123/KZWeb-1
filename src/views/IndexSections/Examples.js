@@ -38,35 +38,7 @@ export default function Examples() {
         <Button color="primary"> <Link to="work-page">Portfolio</Link></Button>
       </Container>
       <br></br>
-      <Container className="text-center">
-        <h1>My Portfolio</h1>
-        <Row>
-          <Col sm="6">
-            
-              <img
-                alt="..."
-                className="img-raised"
-                src={require("assets/img/d (1).jpg")}
-              />
-          
-            
-          </Col>
-          <Col sm="6">
-            
-              <img
-                alt="..."
-                className="img-raised"
-                src={require("assets/img/d (43).jpg")}
-              />
-            
-            
-          </Col>
-         
-         
-        </Row>
-        <br/>
-        <Button color="primary"> <Link to="port-page">View Portfolio</Link></Button>
-      </Container>
+      
     </div>
     
   );
