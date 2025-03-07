@@ -17,9 +17,7 @@ export default function PageHeader() {
       <Container>
         <div className="content-center brand">
           <h1 className="h1-seo">•KEEZ•</h1>
-          <p className=" d-sm-block">
-          I’m a Vancouver-based model specializing in luxury, high-end looks. Growing up surrounded by the city’s incredible art and culture sparked my ambition to pursue a life in modelling.
-          </p>
+         
           <br/>
           <p>Whether you're a business owner looking to get started on a app or web development project with a freelance web developer, a developer looking to collaborate on something cool, or just wanting to say hi, shoot me a message and let's work together.</p>
         </div>
