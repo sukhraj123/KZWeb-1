@@ -26,10 +26,7 @@ root.render(
         path="/work-page"
         render={(props) => <WorkPage {...props} />}
       />
-      <Route
-        path="/port-page"
-        render={(props) => <PortPage {...props} />}
-      />
+      
       <Route
         path="/register-page"
         render={(props) => <RegisterPage {...props} />}
