@@ -66,7 +66,7 @@ export default function ContactPage() {
                     <h4 className="info-title">Give us a ring</h4>
                     <p>
                       Sukh (Keez) Grewal <br />
-                      <a href="tel:6044454042">+1 604 445 4042 </a>
+                      <a href="tel:2368184853">+1 236 818 4853 </a>
                       
 
                       <br />
